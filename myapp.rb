@@ -1,6 +1,4 @@
-myapp.rb
 require 'sinatra'
-require 'sinatra/reloader'
  
 get '/' do
     @title = 'Hello World!'
